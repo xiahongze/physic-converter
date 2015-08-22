@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C5B1E3661B88054700045184 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B1E3651B88054700045184 /* AppDelegate.swift */; };
+		C5B1E3681B88054700045184 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B1E3671B88054700045184 /* ViewController.swift */; };
+		C5B1E36A1B88054700045184 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5B1E3691B88054700045184 /* Images.xcassets */; };
+		C5B1E36D1B88054700045184 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5B1E36B1B88054700045184 /* Main.storyboard */; };
+		C5B1E3791B88054800045184 /* Physic_ConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B1E3781B88054800045184 /* Physic_ConverterTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C5B1E3731B88054800045184 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5B1E3581B88054700045184 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5B1E35F1B88054700045184;
+			remoteInfo = "Physic Converter";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C5B1E3601B88054700045184 /* Physic Converter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Physic Converter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5B1E3641B88054700045184 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5B1E3651B88054700045184 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C5B1E3671B88054700045184 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C5B1E3691B88054700045184 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C5B1E36C1B88054700045184 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C5B1E3721B88054800045184 /* Physic ConverterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Physic ConverterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5B1E3771B88054800045184 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5B1E3781B88054800045184 /* Physic_ConverterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Physic_ConverterTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C5B1E35D1B88054700045184 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5B1E36F1B88054800045184 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C5B1E3571B88054700045184 = {
+			isa = PBXGroup;
+			children = (
+				C5B1E3621B88054700045184 /* Physic Converter */,
+				C5B1E3751B88054800045184 /* Physic ConverterTests */,
+				C5B1E3611B88054700045184 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C5B1E3611B88054700045184 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5B1E3601B88054700045184 /* Physic Converter.app */,
+				C5B1E3721B88054800045184 /* Physic ConverterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C5B1E3621B88054700045184 /* Physic Converter */ = {
+			isa = PBXGroup;
+			children = (
+				C5B1E3651B88054700045184 /* AppDelegate.swift */,
+				C5B1E3671B88054700045184 /* ViewController.swift */,
+				C5B1E3691B88054700045184 /* Images.xcassets */,
+				C5B1E36B1B88054700045184 /* Main.storyboard */,
+				C5B1E3631B88054700045184 /* Supporting Files */,
+			);
+			path = "Physic Converter";
+			sourceTree = "<group>";
+		};
+		C5B1E3631B88054700045184 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C5B1E3641B88054700045184 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C5B1E3751B88054800045184 /* Physic ConverterTests */ = {
+			isa = PBXGroup;
+			children = (
+				C5B1E3781B88054800045184 /* Physic_ConverterTests.swift */,
+				C5B1E3761B88054800045184 /* Supporting Files */,
+			);
+			path = "Physic ConverterTests";
+			sourceTree = "<group>";
+		};
+		C5B1E3761B88054800045184 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C5B1E3771B88054800045184 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C5B1E35F1B88054700045184 /* Physic Converter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5B1E37C1B88054800045184 /* Build configuration list for PBXNativeTarget "Physic Converter" */;
+			buildPhases = (
+				C5B1E35C1B88054700045184 /* Sources */,
+				C5B1E35D1B88054700045184 /* Frameworks */,
+				C5B1E35E1B88054700045184 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Physic Converter";
+			productName = "Physic Converter";
+			productReference = C5B1E3601B88054700045184 /* Physic Converter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C5B1E3711B88054800045184 /* Physic ConverterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5B1E37F1B88054800045184 /* Build configuration list for PBXNativeTarget "Physic ConverterTests" */;
+			buildPhases = (
+				C5B1E36E1B88054800045184 /* Sources */,
+				C5B1E36F1B88054800045184 /* Frameworks */,
+				C5B1E3701B88054800045184 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5B1E3741B88054800045184 /* PBXTargetDependency */,
+			);
+			name = "Physic ConverterTests";
+			productName = "Physic ConverterTests";
+			productReference = C5B1E3721B88054800045184 /* Physic ConverterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C5B1E3581B88054700045184 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Hongze Xia";
+				TargetAttributes = {
+					C5B1E35F1B88054700045184 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					C5B1E3711B88054800045184 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = C5B1E35F1B88054700045184;
+					};
+				};
+			};
+			buildConfigurationList = C5B1E35B1B88054700045184 /* Build configuration list for PBXProject "Physic Converter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C5B1E3571B88054700045184;
+			productRefGroup = C5B1E3611B88054700045184 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C5B1E35F1B88054700045184 /* Physic Converter */,
+				C5B1E3711B88054800045184 /* Physic ConverterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C5B1E35E1B88054700045184 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5B1E36A1B88054700045184 /* Images.xcassets in Resources */,
+				C5B1E36D1B88054700045184 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5B1E3701B88054800045184 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C5B1E35C1B88054700045184 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5B1E3681B88054700045184 /* ViewController.swift in Sources */,
+				C5B1E3661B88054700045184 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5B1E36E1B88054800045184 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5B1E3791B88054800045184 /* Physic_ConverterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C5B1E3741B88054800045184 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5B1E35F1B88054700045184 /* Physic Converter */;
+			targetProxy = C5B1E3731B88054800045184 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C5B1E36B1B88054700045184 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5B1E36C1B88054700045184 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C5B1E37A1B88054800045184 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C5B1E37B1B88054800045184 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C5B1E37D1B88054800045184 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Physic Converter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C5B1E37E1B88054800045184 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Physic Converter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C5B1E3801B88054800045184 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Physic ConverterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Physic Converter.app/Contents/MacOS/Physic Converter";
+			};
+			name = Debug;
+		};
+		C5B1E3811B88054800045184 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Physic ConverterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Physic Converter.app/Contents/MacOS/Physic Converter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C5B1E35B1B88054700045184 /* Build configuration list for PBXProject "Physic Converter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5B1E37A1B88054800045184 /* Debug */,
+				C5B1E37B1B88054800045184 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5B1E37C1B88054800045184 /* Build configuration list for PBXNativeTarget "Physic Converter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5B1E37D1B88054800045184 /* Debug */,
+				C5B1E37E1B88054800045184 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C5B1E37F1B88054800045184 /* Build configuration list for PBXNativeTarget "Physic ConverterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5B1E3801B88054800045184 /* Debug */,
+				C5B1E3811B88054800045184 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C5B1E3581B88054700045184 /* Project object */;
+}
